@@ -1,7 +1,7 @@
 {
 	"name": "lit-signals-decorator",
-	"version": "1.0.1",
-	"description": "",
+	"version": "1.0.2",
+	"description": "Use signals in your lit program using a decorator.",
 	"main": "lib/index.js",
 	"module": "lib/index.js",
 	"type": "module",
@@ -9,22 +9,22 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/vdegenne/lit-signals-decorator.git"
 	},
 	"scripts": {
-		"preinstall": "node --no-warnings install/install.cjs",
 		"dev": "rm -rf node_modules/.vite && vite --host",
 		"build": "tsc --pretty"
 	},
 	"devDependencies": {
+		"@changesets/cli": "^2.26.2",
 		"lit-with-styles": "^1.1.1",
 		"terser": "^5.19.4",
 		"typescript": "^5.2.2",
 		"vite": "^4.4.9"
 	},
 	"dependencies": {
-		"lit": "^2.8.0",
-		"@preact/signals-core": "^1.5.0"
+		"@preact/signals-core": "^1.5.0",
+		"lit": "^2.8.0"
 	},
 	"files": [
 		"lib"

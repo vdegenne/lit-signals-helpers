@@ -8,6 +8,9 @@ export const sig = signal('HELLO');
 @signalable()
 export class MyElement extends LitElement {
 	render() {
+		console.log(
+			'rendered'
+		)
 		return html`
 			value: ${sig}<br>
 			<button @click=${() => (sig.value = 'HELLO WORLD!')}>
