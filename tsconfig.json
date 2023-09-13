@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "ES2022",
+		"moduleResolution": "Node",
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"inlineSources": true,
+		"experimentalDecorators": true,
+		"outDir": "lib",
+		"rootDir": "src",
+	},
+	"include": ["src/**/*"],
+	"exclude": []
+}
