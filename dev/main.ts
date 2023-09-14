@@ -1,6 +1,10 @@
 import {LitElement, html} from 'lit';
 import {customElement} from 'lit/decorators.js';
-import {signalable, signal} from '../src/index.js';
+import {signalable, signal, compound} from '../src/index.js';
+
+const c = compound('asdf')
+
+const $test = c.signal('test', true)
 
 export const sig = signal('HELLO');
 

@@ -1,6 +1,6 @@
 {
 	"name": "lit-signals-decorator",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Use signals in your lit program using a decorator.",
 	"main": "lib/index.js",
 	"module": "lib/index.js",

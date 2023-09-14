@@ -30,3 +30,5 @@ export function signalable() {
 		} as any;
 	};
 }
+
+export {lsignal, compound} from './local-storage-signals.js';
