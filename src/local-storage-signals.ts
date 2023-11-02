@@ -3,7 +3,7 @@
  * Copyright (c) 2023 Valentin Degenne
  * SPDX-License-Identifier: MIT
  */
-import {effect, signal, type Signal} from '@preact/signals-core';
+import {effect, signal, type Signal} from '@lit-labs/preact-signals';
 
 const storages = new Map();
 

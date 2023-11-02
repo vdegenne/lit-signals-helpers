@@ -1,6 +1,6 @@
 {
-	"name": "lit-signals-decorator",
-	"version": "1.0.3",
+	"name": "lit-signals-helpers",
+	"version": "2.0.0",
 	"description": "Use signals in your lit program using a decorator.",
 	"main": "lib/index.js",
 	"module": "lib/index.js",
@@ -23,8 +23,7 @@
 		"vite": "^4.4.9"
 	},
 	"dependencies": {
-		"@preact/signals-core": "^1.5.0",
-		"lit": "^2.8.0"
+		"@lit-labs/preact-signals": "^1.0.1"
 	},
 	"files": [
 		"lib"
